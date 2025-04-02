@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 7</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <!--form elements-->
+            <label for="firstname">Firstname:</label><br>
+            <input type="text" id="firstname" name="firstname" required placeholder="Enter your first name" maxlength="50"><br>
+
+            <label for="lastname">Lastname:</label><br>
+            <input type="text" name="lastname" id="lastname" required placeholder="Disabled" maxlength="50" disabled><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required placeholder="Enter your email"><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" name="password" id="password" required placeholder="Enter your password" size="20"><br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" name="gender" id="male" value="male" required>
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label><br><br>
+
+            <label>Hobbies:</label><br>
+            <input type="checkbox" id="gaming" name="gaming" value="Gaming">
+            <label for="gaming">Gaming</label><br>
+            <input type="checkbox" id="football" name="football" value="Football">
+            <label for="football">Football</label><br>
+            <input type="checkbox" id="swimming" name="swimming" value="Swimming">
+            <label for="swimming">Swimming</label><br><br>
+
+            <label for="PET">Pet:</label><br>
+            <select name="PET" id="PET" required>
+                <option value="DOG">Dog</option>
+                <option value="CAT">Cat</option>
+                <option value="PARROT">Parrot</option>
+            </select>
+            <br><br>
+
+            <label for="massa">Message:</label><br>
+            <textarea name="massa" id="massa" rows="4" cols="50" placeholder="Enter your message" maxlength="50"></textarea><br><br>
+
+            <input type="submit" name="submit" id="submit"><br>
+        </fieldset>
+    </form>
+    <article>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi commodi tempore non cupiditate dolore nostrum nulla itaque iure molestiae quod.</p>
+    </article>
+    <details>
+    <summary>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, amet.</summary>
+    <p>Lorem ipsum dolor sit amet.</p>
+</details>
+</body>
+</html>
